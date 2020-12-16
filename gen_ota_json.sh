@@ -40,6 +40,7 @@ url="https://github.com/SGCMarkus/Lineage-OTA/releases/download/${TAG}/${FILENAM
 sed -i "s!${oldurl}!\"${url}\",!g" $DEVICE.json
 
 git add $DEVICE.json
-git commit -m "Update ${$DEVICE} to ${d}"
+git commit -m "Update ${DEVICE} to ${d}"
+git push sgc lineage-18.0
 
 hub release create -a ../out/target/product/$DEVICE/$FILENAME -a changelog.txt -m "${TAG}" "${TAG}"
