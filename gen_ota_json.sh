@@ -37,7 +37,7 @@ sed -i "s!${oldd}!${d}!" $DEVICE.json
 #echo Generate Download URL
 TAG=$(echo "${DEVICE}-${d}")
 url="https://github.com/SGCMarkus/Lineage-OTA/releases/download/${TAG}/${FILENAME}"
-sed -i "s!${oldurl}!\"${url}\",!g" $DEVICE.json
+sed -i "s|${oldurl}|\"${url}\",|g" $DEVICE.json
 
 git add $DEVICE.json
 git commit -m "Update ${DEVICE} to ${d}"
