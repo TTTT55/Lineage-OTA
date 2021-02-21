@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1608114248",
-      "filename": "lineage-18.1-20201216-UNOFFICIAL-flashlm.zip",
-      "id": "33b277bd567e918df7a51f5cd4fc5724",
+      "datetime": "1613908435",
+      "filename": "lineage-18.1-20210221-UNOFFICIAL-flashlm.zip",
+      "id": "9a82e4e664fe6c8c72c4f76c5eae2eb6",
       "romtype": "UNOFFICIAL",
-      "size": "893407012",
-      "url":  "https://github.com/SGCMarkus/Lineage-OTA/releases/download/flashlm-20201216/lineage-18.1-20201216-UNOFFICIAL-flashlm.zip",
+      "size": "892610726",
+      "url":  "https://github.com/SGCMarkus/Lineage-OTA/releases/download/flashlm-20210221/lineage-18.1-20201216-UNOFFICIAL-flashlm.zip",
       "version": "18.1"
     }
   ]
