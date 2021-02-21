@@ -5,7 +5,7 @@ REPOS="${@:2}"
 
 d=$(date +%Y%m%d)
 
-FILENAME=lineage-18.0-"${d}"-UNOFFICIAL-"${DEVICE}".zip
+FILENAME=lineage-18.1-"${d}"-UNOFFICIAL-"${DEVICE}".zip
 
 oldd=$(grep filename $DEVICE.json | cut -d '-' -f 3)
 md5=$(md5sum ../out/target/product/$DEVICE/$FILENAME | cut -d ' ' -f 1)
@@ -41,6 +41,6 @@ sed -i "s!${oldurl}!\"${url}\",!g" $DEVICE.json
 
 git add $DEVICE.json
 git commit -m "Update ${DEVICE} to ${d}"
-git push sgc lineage-18.0
+git push sgc lineage-18.1
 
 hub release create -a ../out/target/product/$DEVICE/$FILENAME -a changelog.txt -m "${TAG}" "${TAG}"
