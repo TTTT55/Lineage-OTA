@@ -41,6 +41,6 @@ sed -i "s|${oldurl}|\"${url}\",|g" $DEVICE.json
 
 git add $DEVICE.json
 git commit -m "Update ${DEVICE} to ${d}"
-git push sgc lineage-18.1
+git push origin lineage-18.1
 
 hub release create -a ../out/target/product/$DEVICE/$FILENAME -a changelog.txt -m "${TAG}" "${TAG}"
