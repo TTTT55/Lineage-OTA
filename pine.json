@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1624051453",
-      "filename": "lineage-18.1-20210619-UNOFFICIAL-pine.zip",
-      "id": "c5cb0dcc83bd80c48ffec530fcf516d5",
+      "datetime": "1624158779",
+      "filename": "lineage-18.1-20210620-UNOFFICIAL-pine.zip",
+      "id": "4cca4e5c1de5b457844fdac2cf2d57ca",
       "romtype": "UNOFFICIAL",
-      "size": "c5cb0dcc83bd80c48ffec530fcf516d5",
-      "url":  "https://github.com/TTTT55/Lineage-OTA/releases/download/pine-20210619/lineage-18.1-20210618-UNOFFICIAL-pine.zip",
+      "size": "4cca4e5c1de5b457844fdac2cf2d57ca",
+      "url":  "https://github.com/TTTT55/Lineage-OTA/releases/download/pine-20210620/lineage-18.1-20210618-UNOFFICIAL-pine.zip",
       "version": "18.1"
     }
   ]
